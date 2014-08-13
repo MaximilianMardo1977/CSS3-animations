@@ -1,0 +1,33 @@
+/*
+    Author: Rolando Caldas Sanchez
+    Blog: http://rolandocaldas.com/
+    Google+: https://plus.google.com/+RolandoCaldasSanchez
+    Linkedin: http://www.linkedin.com/in/rolandocaldas
+    Twitter: https://twitter.com/rolando_caldas
+
+    This file is part of an article:
+    http://rolandocaldas.com/html5/slider-css-sin-javascript-automatico 
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+div {
+	background: #000;
+	height: 200px;
+	margin: 20px auto;
+	width: 200px;
+
+    	-webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-o-transition: all 0.75s ease;
+	transition: all 0.75s ease;
+}
+
+

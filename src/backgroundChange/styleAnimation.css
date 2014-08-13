@@ -1,0 +1,143 @@
+/*
+    Author: Rolando Caldas Sanchez
+    Blog: http://rolandocaldas.com/
+    Google+: https://plus.google.com/+RolandoCaldasSanchez
+    Linkedin: http://www.linkedin.com/in/rolandocaldas
+    Twitter: https://twitter.com/rolando_caldas
+
+    This file is part of an article:
+    http://rolandocaldas.com/html5/slider-css-sin-javascript-automatico 
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+div {
+	background: #000;
+	height: 200px;
+	margin: 20px auto;
+	width: 200px;
+
+    	-webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-o-transition: all 0.75s ease;
+	transition: all 0.75s ease;
+}
+
+#firstAnimation {
+    -moz-animation: changeBackground 5s 1 linear;
+    -o-animation: changeBackground 5s 1 linear;
+    -webkit-animation: changeBackground 5s 1 linear;
+    animation: changeBackground 5s 1 linear;
+}
+
+
+#secondAnimation {
+    -moz-animation: changeBackgroundPlus 5s 1 linear;
+    -o-animation: changeBackgroundPlus 5s 1 linear;
+    -webkit-animation: changeBackgroundPlus 5s 1 linear;
+    animation: changeBackgroundPlus 5s 1 linear;
+}
+
+@-moz-keyframes changeBackground {
+    from {
+        background: white;
+    }
+
+    to {
+        background: black;
+    }
+}
+
+@-webkit-keyframes changeBackground {
+    from {
+        background: white;
+    }
+
+    to {
+        background: black;
+    }
+}
+
+@keyframes changeBackground {
+    from {
+        background: white;
+    }
+
+    to {
+        background: black;
+    }
+}
+
+@-moz-keyframes changeBackgroundPlus {
+    0% {
+        background: white;
+    }
+
+    25% {
+        background: red;
+    }
+
+    50% {
+        background: blue;
+    }
+
+    75% {
+        background: green;
+    }
+
+    100% {
+        background: black;
+    }
+}
+
+@-webkit-keyframes changeBackgroundPlus {
+    0% {
+        background: white;
+    }
+
+    25% {
+        background: red;
+    }
+
+    50% {
+        background: blue;
+    }
+
+    75% {
+        background: green;
+    }
+
+    100% {
+        background: black;
+    }
+}
+
+@keyframes changeBackgroundPlus {
+    0% {
+        background: white;
+    }
+
+    25% {
+        background: red;
+    }
+
+    50% {
+        background: blue;
+    }
+
+    75% {
+        background: green;
+    }
+
+    100% {
+        background: black;
+    }    
+}
+
